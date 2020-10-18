@@ -16,7 +16,7 @@ importScripts(
 );
 
 importScripts(
-  "/kishoregs/precache-manifest.e511ccdb564d0e3bc84f286cc52943f1.js"
+  "/kishoregs/precache-manifest.f9e01c17866d66b5a43ce098cf508e6b.js"
 );
 
 self.addEventListener("message", (event) => {
