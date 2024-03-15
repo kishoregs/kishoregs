@@ -26,8 +26,8 @@
         f = t(138),
         k = t(40),
         y = t(152),
-        v = t(63),
-        w = t.n(v);
+        w = t(63),
+        v = t.n(w);
       var x = () => {
           const e = Object(c.a)({
               lnk: {
@@ -78,7 +78,7 @@
             l = (e) => {
               document.getElementById(e).scrollIntoView({ behavior: "smooth" });
             },
-            v = i.a.createElement(
+            w = i.a.createElement(
               s.a,
               { className: e.div },
               i.a.createElement(
@@ -166,7 +166,7 @@
               i.a.createElement(
                 g.a,
                 { onClick: r },
-                i.a.createElement(w.a, null)
+                i.a.createElement(v.a, null)
               )
             );
           return i.a.createElement(
@@ -193,7 +193,7 @@
                   )
                 )
               ),
-              i.a.createElement(y.a, { xsDown: !0 }, v),
+              i.a.createElement(y.a, { xsDown: !0 }, w),
               i.a.createElement(y.a, { smUp: !0 }, x)
             )
           );
@@ -215,7 +215,17 @@
         D = t(55),
         L = t.n(D);
       var M = () => {
-          const e = Object(c.a)({
+          const [e, a] = Object(n.useState)(!1);
+          Object(n.useEffect)(() => {
+            const e = () => {
+              a(window.scrollY > 100);
+            };
+            return (
+              window.addEventListener("scroll", e),
+              () => window.removeEventListener("scroll", e)
+            );
+          }, []);
+          const t = Object(c.a)({
               background: {
                 display: "flex",
                 flexDirection: "column",
@@ -268,33 +278,33 @@
               },
               backToTopButtonMobile: { margin: "0.8rem", marginBottom: "4rem" },
             })(),
-            a = (e) => {
+            r = (e) => {
               document.getElementById(e).scrollIntoView({ behavior: "smooth" });
             };
           return i.a.createElement(
             s.a,
-            { className: e.background, id: "Top" },
+            { className: t.background, id: "Top" },
             i.a.createElement(
               k.a,
-              { className: e.topText, variant: "h3", align: "center" },
+              { className: t.topText, variant: "h3", align: "center" },
               "Hi, my name is"
             ),
             i.a.createElement(
               k.a,
-              { className: e.name, variant: "h2", align: "center" },
+              { className: t.name, variant: "h2", align: "center" },
               "Kishore Shiraguppi"
             ),
             i.a.createElement(
               k.a,
-              { className: e.bottomText, variant: "h6", align: "center" },
+              { className: t.bottomText, variant: "h6", align: "center" },
               "Software professional & an aspiring generalist."
             ),
             i.a.createElement(
               g.a,
               {
-                className: e.button,
+                className: t.button,
                 "aria-label": "Scroll Down",
-                onClick: () => a("About"),
+                onClick: () => r("About"),
               },
               i.a.createElement("span", {
                 className: "iconify",
@@ -305,33 +315,35 @@
             i.a.createElement(
               y.a,
               { xsDown: !0 },
-              i.a.createElement(
-                N.a,
-                {
-                  className: e.backToTopButton,
-                  variant: "extended",
-                  size: "small",
-                  "aria-label": "Back to Top",
-                  onClick: () => a("Top"),
-                },
-                i.a.createElement(L.a, null)
-              )
+              e &&
+                i.a.createElement(
+                  N.a,
+                  {
+                    className: t.backToTopButton,
+                    variant: "extended",
+                    size: "small",
+                    "aria-label": "Back to Top",
+                    onClick: () => r("Top"),
+                  },
+                  i.a.createElement(L.a, null)
+                )
             ),
             i.a.createElement(
               y.a,
               { smUp: !0 },
-              i.a.createElement(
-                N.a,
-                {
-                  className: ""
-                    .concat(e.backToTopButton, " ")
-                    .concat(e.backToTopButtonMobile),
-                  size: "small",
-                  "aria-label": "Back to Top",
-                  onClick: () => a("Top"),
-                },
-                i.a.createElement(L.a, null)
-              )
+              e &&
+                i.a.createElement(
+                  N.a,
+                  {
+                    className: ""
+                      .concat(t.backToTopButton, " ")
+                      .concat(t.backToTopButtonMobile),
+                    size: "small",
+                    "aria-label": "Back to Top",
+                    onClick: () => r("Top"),
+                  },
+                  i.a.createElement(L.a, null)
+                )
             )
           );
         },
@@ -865,9 +877,9 @@
           );
         },
         V = t(153),
-        q = t(143),
-        F = t(72),
-        Y = t.n(F),
+        Y = t(143),
+        q = t(72),
+        F = t.n(q),
         Q = t(71),
         _ = t.n(Q),
         $ = t(73),
@@ -920,7 +932,7 @@
               { className: e.rowDiv, id: "Contact" },
               i.a.createElement(
                 V.a,
-                { title: "Phone", arrow: !0, TransitionComponent: q.a },
+                { title: "Phone", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -933,7 +945,7 @@
               ),
               i.a.createElement(
                 V.a,
-                { title: "WhatsApp", arrow: !0, TransitionComponent: q.a },
+                { title: "WhatsApp", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -946,7 +958,7 @@
               ),
               i.a.createElement(
                 V.a,
-                { title: "Email", arrow: !0, TransitionComponent: q.a },
+                { title: "Email", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -959,7 +971,7 @@
               ),
               i.a.createElement(
                 V.a,
-                { title: "LinkedIn", arrow: !0, TransitionComponent: q.a },
+                { title: "LinkedIn", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -975,7 +987,7 @@
               ),
               i.a.createElement(
                 V.a,
-                { title: "GitHub", arrow: !0, TransitionComponent: q.a },
+                { title: "GitHub", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -983,12 +995,12 @@
                     "aria-label": "GitHub link",
                     onClick: () => window.open("https://github.com/kishoregs/"),
                   },
-                  i.a.createElement(Y.a, { className: e.github })
+                  i.a.createElement(F.a, { className: e.github })
                 )
               ),
               i.a.createElement(
                 V.a,
-                { title: "Twitter", arrow: !0, TransitionComponent: q.a },
+                { title: "Twitter", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -1002,7 +1014,7 @@
               ),
               i.a.createElement(
                 V.a,
-                { title: "YouTube", arrow: !0, TransitionComponent: q.a },
+                { title: "YouTube", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
                   {
@@ -1105,8 +1117,8 @@
         fe = t.n(be),
         ke = t(78),
         ye = t.n(ke),
-        ve = t(79),
-        we = t.n(ve),
+        we = t(79),
+        ve = t.n(we),
         xe = t(80),
         Ne = t.n(xe),
         Te = t(81),
@@ -1202,7 +1214,7 @@
             h
           ),
           y = i.a.createElement(s.a, { className: e.icons }, n, l, o, m, p, h),
-          v = i.a.createElement(
+          w = i.a.createElement(
             s.a,
             { className: e.icons },
             t,
@@ -1214,7 +1226,7 @@
             p,
             h
           ),
-          w = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
+          v = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
         s.a, e.icons, K.a;
         return i.a.createElement(
           s.a,
@@ -1256,10 +1268,10 @@
           }),
           i.a.createElement(de, {
             title: "QueueHero",
-            icons: v,
+            icons: w,
             description:
               "QueueHero is a wailist management solution for local businesses.",
-            image: we.a,
+            image: ve.a,
             imageTitle: "QueueHero screenshot",
             projectLink:
               "https://kishoreshiraguppi.github.io/portfolio-website/",
@@ -1279,7 +1291,7 @@
           }),
           i.a.createElement(de, {
             title: "Venkateshwara Temple Website",
-            icons: w,
+            icons: v,
             description:
               "This is a project done to provide information about this temple place.",
             image: Se.a,
@@ -1300,7 +1312,7 @@
           }),
           i.a.createElement(de, {
             title: "Game : Catch-Me-If-You-Can",
-            icons: w,
+            icons: v,
             description: "A simple game made with JS.",
             image: fe.a,
             imageTitle: "Game screenshot",
@@ -1407,4 +1419,4 @@
   },
   [[92, 1, 2]],
 ]);
-//# sourceMappingURL=main.3433bb3e.chunk.js.map
+//# sourceMappingURL=main.779cf767.chunk.js.map
