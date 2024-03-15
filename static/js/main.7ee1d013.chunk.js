@@ -27,7 +27,7 @@
         k = t(152),
         v = t(63),
         w = t.n(v);
-      var y = () => {
+      var x = () => {
           const e = Object(c.a)({
               div: {
                 display: "flex",
@@ -77,24 +77,25 @@
               { className: e.div },
               i.a.createElement(
                 m.a,
-                { className: e.button, onClick: () => l("AboutMe") },
-                "About Me"
+                { className: e.button, onClick: () => l("About") },
+                "About"
               ),
               i.a.createElement(
-                m.a,
+                "a",
                 {
                   href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
                   className: e.button,
                   target: "_blank",
+                  rel: "noopener noreferrer",
                   download: !0,
-                  underline: "none",
+                  style: { textDecoration: "none" },
                 },
-                "My Resume"
+                "Resume"
               ),
               i.a.createElement(
                 m.a,
                 { className: e.button, onClick: () => l("Projects") },
-                "Hobby Projects"
+                "Projects"
               ),
               i.a.createElement(
                 m.a,
@@ -102,7 +103,7 @@
                 "Contact"
               )
             ),
-            y = i.a.createElement(
+            x = i.a.createElement(
               s.a,
               { className: e.div },
               i.a.createElement(
@@ -118,7 +119,7 @@
                 i.a.createElement(
                   d.a,
                   { onClick: r },
-                  ["ABOUT ME", "HOBBY PROJECTS", "CONTACT"].map((a, t) =>
+                  ["ABOUT", "RESUME", "PROJECTS", "CONTACT"].map((a, t) =>
                     i.a.createElement(
                       h.a,
                       { button: !0, component: "a", key: a, href: "#" + o(a) },
@@ -157,11 +158,11 @@
                 )
               ),
               i.a.createElement(k.a, { xsDown: !0 }, v),
-              i.a.createElement(k.a, { smUp: !0 }, y)
+              i.a.createElement(k.a, { smUp: !0 }, x)
             )
           );
         },
-        x = t(138),
+        y = t(138),
         N = t(64),
         T = t.n(N),
         S = t(65),
@@ -257,7 +258,7 @@
               {
                 className: e.button,
                 "aria-label": "Scroll Down",
-                onClick: () => a("AboutMe"),
+                onClick: () => a("About"),
               },
               i.a.createElement("span", {
                 className: "iconify",
@@ -269,7 +270,7 @@
               k.a,
               { xsDown: !0 },
               i.a.createElement(
-                x.a,
+                y.a,
                 {
                   className: e.backToTopButton,
                   variant: "extended",
@@ -284,7 +285,7 @@
               k.a,
               { smUp: !0 },
               i.a.createElement(
-                x.a,
+                y.a,
                 {
                   className: ""
                     .concat(e.backToTopButton, " ")
@@ -298,16 +299,16 @@
             )
           );
         },
-        M = t(141),
-        B = t(142);
-      const W = {
+        B = t(141),
+        M = t(142);
+      const R = {
           width: "100%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
         },
-        R = {
+        W = {
           width: "100%",
           display: "flex",
           flexDirection: "row",
@@ -327,15 +328,15 @@
           marginTop: "0",
           height: "0.12rem",
         };
-      var H = t(66),
-        O = t.n(H),
+      var O = t(66),
+        H = t.n(O),
         J = t(139),
         G = t(140);
       var K = () => {
         const e = Object(c.a)({
-            columnDiv: { ...W },
+            columnDiv: { ...R },
             mainDiv: { backgroundColor: "#e8e8e8", margin: "0 auto" },
-            rowDiv: { ...R },
+            rowDiv: { ...W },
             rowDivider: { width: "70%" },
             divider: { ...A },
             headerText: { ...P },
@@ -528,7 +529,7 @@
             i.a.createElement("br", null),
             " Technologies"
           ),
-          i.a.createElement(M.a, { classes: { root: e.divider } }),
+          i.a.createElement(B.a, { classes: { root: e.divider } }),
           i.a.createElement(
             s.a,
             { className: "".concat(e.rowDiv, " ").concat(e.rowDivider) },
@@ -725,9 +726,9 @@
           )
         );
       };
-      var V = () => {
+      var U = () => {
           const e = Object(c.a)({
-            columnDiv: { ...W },
+            columnDiv: { ...R },
             mainDiv: {
               width: "60%",
               [I.breakpoints.down("sm")]: { width: "80%" },
@@ -771,31 +772,32 @@
               s.a,
               {
                 className: "".concat(e.columnDiv, " ").concat(e.mainDiv),
-                id: "AboutMe",
+                id: "About",
               },
               i.a.createElement(
                 f.a,
                 { className: "".concat(e.aboutText, " ").concat(e.headerText) },
-                "About Me"
+                "About"
               ),
-              i.a.createElement(M.a, { classes: { root: e.divider } }),
+              i.a.createElement(B.a, { classes: { root: e.divider } }),
               i.a.createElement(
                 f.a,
                 { className: e.bodyText },
-                "Hello !!! & Welcome to my corner. This is ",
+                "Hi there & welcome to my corner. This is ",
                 i.a.createElement("b", null, "Kishore Shiraguppi"),
-                ". This is about my introduction & my professional background. ",
+                ". Please read about my introduction & professional background. ",
                 i.a.createElement("br", null),
                 " I bring over 20 years of dedicated experience in the software development industry. My career has been driven by a genuine passion for programming and a commitment to continuous learning. This enthusiasm has not only shaped my approach to technology but also instilled in me a robust work ethic and the ability to swiftly adapt to new technologies. Beyond my professional endeavors, I dedicate considerable time to staying abreast of the latest trends in business, technology, and software development. My expertise spans a diverse range of domains, including Banking, Finance, Wealth Management, Municipal Markets, Fixed Income, Logistics, Insurance, Enterprise Frameworks, Manufacturing, and Construction. Throughout my career, I have contributed to various application development teams in capacities ranging from a full-stack engineer to a team leader and technical architect. My aspiration is to further enrich my experience and contribute significantly in roles related to management, leadership, and development. I am keen on exploring opportunities where I can leverage my comprehensive background to drive innovation and excellence. Thank you for reading through this. I am looking forward to the possibility of contributing to your team and embracing the challenges and learning opportunities it offers. Warm regards to you. You can download",
                 " ",
                 i.a.createElement(
-                  B.a,
+                  "a",
                   {
-                    href: "/kishoregs/Kishore.Shiraguppi.Resume-2024.pdf",
+                    href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
                     className: e.link,
                     target: "_blank",
+                    rel: "noopener noreferrer",
                     download: !0,
-                    underline: "none",
+                    style: { textDecoration: "none" },
                   },
                   "my detailed resume here."
                 ),
@@ -803,7 +805,7 @@
                 "Also",
                 " ",
                 i.a.createElement(
-                  B.a,
+                  M.a,
                   {
                     onClick: () => {
                       document
@@ -819,7 +821,7 @@
               ),
               i.a.createElement(s.a, {
                 component: "img",
-                src: O.a,
+                src: H.a,
                 alt: "Kishore Shiraguppi",
                 className: e.picture,
               })
@@ -827,10 +829,10 @@
             i.a.createElement(K, null)
           );
         },
-        Y = t(153),
+        V = t(153),
         q = t(143),
         F = t(72),
-        U = t.n(F),
+        Y = t.n(F),
         Q = t(71),
         _ = t.n(Q),
         $ = t(73),
@@ -851,8 +853,8 @@
                 bottom: "0",
                 marginTop: "5rem",
               },
-              columnDiv: { ...W },
-              rowDiv: { ...R },
+              columnDiv: { ...R },
+              rowDiv: { ...W },
               headerText: { ...P },
               contactText: {
                 color: "#eeeeee",
@@ -882,7 +884,7 @@
               s.a,
               { className: e.rowDiv, id: "Contact" },
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "Phone", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -895,7 +897,7 @@
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "WhatsApp", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -908,7 +910,7 @@
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "Email", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -921,7 +923,7 @@
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "LinkedIn", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -937,7 +939,7 @@
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "GitHub", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -946,11 +948,11 @@
                     "aria-label": "GitHub link",
                     onClick: () => window.open("https://github.com/kishoregs/"),
                   },
-                  i.a.createElement(U.a, { className: e.github })
+                  i.a.createElement(Y.a, { className: e.github })
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "Twitter", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -964,7 +966,7 @@
                 )
               ),
               i.a.createElement(
-                Y.a,
+                V.a,
                 { title: "YouTube", arrow: !0, TransitionComponent: q.a },
                 i.a.createElement(
                   g.a,
@@ -986,7 +988,7 @@
               { className: "".concat(e.headerText, " ").concat(e.contactText) },
               "Contact Me"
             ),
-            i.a.createElement(M.a, {
+            i.a.createElement(B.a, {
               classes: {
                 root: "".concat(e.divider, " ").concat(e.contactDivider),
               },
@@ -1069,15 +1071,15 @@
         ke = t(78),
         ve = t.n(ke),
         we = t(79),
-        ye = t.n(we),
-        xe = t(80),
-        Ne = t.n(xe),
+        xe = t.n(we),
+        ye = t(80),
+        Ne = t.n(ye),
         Te = t(81),
         Se = t.n(Te);
       t(105);
       var ze = () => {
         const e = Object(c.a)({
-            columnDiv: { ...W },
+            columnDiv: { ...R },
             mainDiv: { width: "auto" },
             headerText: { ...P },
             projectText: { marginTop: "5rem" },
@@ -1177,7 +1179,7 @@
             p,
             h
           ),
-          y = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
+          x = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
         s.a, e.icons, G.a;
         return i.a.createElement(
           s.a,
@@ -1188,9 +1190,9 @@
           i.a.createElement(
             f.a,
             { className: "".concat(e.projectText, " ").concat(e.headerText) },
-            "Hobby Projects"
+            "Projects"
           ),
-          i.a.createElement(M.a, {
+          i.a.createElement(B.a, {
             className: "".concat(e.divider, " ").concat(e.projectsDivider),
           }),
           i.a.createElement(de, {
@@ -1222,7 +1224,7 @@
             icons: w,
             description:
               "QueueHero is a wailist management solution for local businesses.",
-            image: ye.a,
+            image: xe.a,
             imageTitle: "QueueHero screenshot",
             projectLink:
               "https://kishoreshiraguppi.github.io/portfolio-website/",
@@ -1242,7 +1244,7 @@
           }),
           i.a.createElement(de, {
             title: "Venkateshwara Temple Website",
-            icons: y,
+            icons: x,
             description:
               "This is a project done to provide information about this temple place.",
             image: Se.a,
@@ -1263,7 +1265,7 @@
           }),
           i.a.createElement(de, {
             title: "Game : Catch-Me-If-You-Can",
-            icons: y,
+            icons: x,
             description: "A simple game made with JS.",
             image: fe.a,
             imageTitle: "Game screenshot",
@@ -1298,9 +1300,9 @@
         return i.a.createElement(
           l.a,
           { theme: I },
-          i.a.createElement(y, null),
+          i.a.createElement(x, null),
           i.a.createElement(L, null),
-          i.a.createElement(V, null),
+          i.a.createElement(U, null),
           i.a.createElement(ze, null),
           i.a.createElement(le, null),
           i.a.createElement(Ce, null)
@@ -1370,4 +1372,4 @@
   },
   [[92, 1, 2]],
 ]);
-//# sourceMappingURL=main.c3ef8344.chunk.js.map
+//# sourceMappingURL=main.7ee1d013.chunk.js.map

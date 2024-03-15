@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kishoregs/static/css/main.239fc7fd.chunk.css",
-    "main.js": "/kishoregs/static/js/main.c3ef8344.chunk.js",
-    "main.js.map": "/kishoregs/static/js/main.c3ef8344.chunk.js.map",
+    "main.js": "/kishoregs/static/js/main.7ee1d013.chunk.js",
+    "main.js.map": "/kishoregs/static/js/main.7ee1d013.chunk.js.map",
     "runtime-main.js": "/kishoregs/static/js/runtime-main.f67028ca.js",
     "runtime-main.js.map": "/kishoregs/static/js/runtime-main.f67028ca.js.map",
     "static/js/2.62157620.chunk.js": "/kishoregs/static/js/2.62157620.chunk.js",
     "static/js/2.62157620.chunk.js.map": "/kishoregs/static/js/2.62157620.chunk.js.map",
     "index.html": "/kishoregs/index.html",
-    "precache-manifest.c4698dd61ce1ad88e3e08c634e17721e.js": "/kishoregs/precache-manifest.c4698dd61ce1ad88e3e08c634e17721e.js",
+    "precache-manifest.a1e0375500f1190873e4baa33d918de1.js": "/kishoregs/precache-manifest.a1e0375500f1190873e4baa33d918de1.js",
     "service-worker.js": "/kishoregs/service-worker.js",
     "static/css/main.239fc7fd.chunk.css.map": "/kishoregs/static/css/main.239fc7fd.chunk.css.map",
     "static/js/2.62157620.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.62157620.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.f67028ca.js",
     "static/js/2.62157620.chunk.js",
     "static/css/main.239fc7fd.chunk.css",
-    "static/js/main.c3ef8344.chunk.js"
+    "static/js/main.7ee1d013.chunk.js"
   ]
 }

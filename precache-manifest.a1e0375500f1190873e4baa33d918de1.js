@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4ede09b01ba14ed0e029f9f840fd7c4",
+    "revision": "9714ec2ee94fd12b8b21d7a8e21dfceb",
     "url": "/kishoregs/index.html"
   },
   {
-    "revision": "81df9311f31b6cc94044",
+    "revision": "1d55660a8ca2fe43d7c1",
     "url": "/kishoregs/static/css/main.239fc7fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kishoregs/static/js/2.62157620.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81df9311f31b6cc94044",
-    "url": "/kishoregs/static/js/main.c3ef8344.chunk.js"
+    "revision": "1d55660a8ca2fe43d7c1",
+    "url": "/kishoregs/static/js/main.7ee1d013.chunk.js"
   },
   {
     "revision": "57c910500c8f0bf070aa",
