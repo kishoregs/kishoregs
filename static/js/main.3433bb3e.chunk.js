@@ -23,12 +23,18 @@
         g = t(135),
         E = t(136),
         b = t(137),
-        f = t(40),
-        k = t(152),
+        f = t(138),
+        k = t(40),
+        y = t(152),
         v = t(63),
         w = t.n(v);
       var x = () => {
           const e = Object(c.a)({
+              lnk: {
+                textDecoration: "none",
+                color: "inherit",
+                "&:hover": { textDecoration: "none" },
+              },
               div: {
                 display: "flex",
                 marginLeft: "auto",
@@ -49,7 +55,7 @@
                 margin: "0 0.5rem",
                 fontSize: "0.9rem",
               },
-              text: { fontSize: "1.2rem" },
+              text: { fontSize: "1.2rem", color: "White" },
               span: { textShadow: "1px 1px rgba(0, 0, 0, 0.3)" },
               listItemText: { fontSize: "0.9rem", fontWeight: "500" },
             })(),
@@ -84,11 +90,12 @@
                 "a",
                 {
                   href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
-                  className: e.button,
+                  className:
+                    "MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-12",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   download: !0,
-                  style: { textDecoration: "none" },
+                  style: { textDecoration: "none", color: "white" },
                 },
                 "Resume"
               ),
@@ -120,14 +127,39 @@
                   d.a,
                   { onClick: r },
                   ["ABOUT", "RESUME", "PROJECTS", "CONTACT"].map((a, t) =>
-                    i.a.createElement(
-                      h.a,
-                      { button: !0, component: "a", key: a, href: "#" + o(a) },
-                      i.a.createElement(u.a, {
-                        primary: a,
-                        classes: { primary: e.listItemText },
-                      })
-                    )
+                    "resume" === a.toLowerCase()
+                      ? i.a.createElement(
+                          "a",
+                          {
+                            key: a,
+                            href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
+                            className:
+                              "MuiTypography-root MuiListItemText-primary makeStyles-listItemText-278 MuiTypography-body1 MuiTypography-displayBlock",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            download: !0,
+                            style: {
+                              textDecoration: "none",
+                              display: "block",
+                              padding: "8px 16px",
+                              color: "white",
+                            },
+                          },
+                          a
+                        )
+                      : i.a.createElement(
+                          h.a,
+                          {
+                            button: !0,
+                            component: "a",
+                            key: a,
+                            href: "#" + o(a),
+                          },
+                          i.a.createElement(u.a, {
+                            primary: a,
+                            classes: { primary: e.listItemText },
+                          })
+                        )
                   )
                 )
               ),
@@ -145,30 +177,34 @@
               null,
               i.a.createElement(
                 f.a,
-                { variant: "h6", className: e.text },
-                "Kishore Shiraguppi",
+                { to: "/", className: e.lnk },
                 i.a.createElement(
-                  "span",
-                  {
-                    role: "img",
-                    "aria-label": "sparkle emoji",
-                    className: e.span,
-                  },
-                  "\u2728"
+                  k.a,
+                  { variant: "h6", className: e.lnk },
+                  "Kishore Shiraguppi",
+                  i.a.createElement(
+                    "span",
+                    {
+                      role: "img",
+                      "aria-label": "sparkle emoji",
+                      className: e.span,
+                    },
+                    "\u2728"
+                  )
                 )
               ),
-              i.a.createElement(k.a, { xsDown: !0 }, v),
-              i.a.createElement(k.a, { smUp: !0 }, x)
+              i.a.createElement(y.a, { xsDown: !0 }, v),
+              i.a.createElement(y.a, { smUp: !0 }, x)
             )
           );
         },
-        y = t(138),
-        N = t(64),
-        T = t.n(N),
-        S = t(65),
-        z = t.n(S),
+        N = t(139),
+        T = t(64),
+        S = t.n(T),
+        I = t(65),
+        z = t.n(I),
         C = t(82);
-      var I = Object(C.a)({
+      var j = Object(C.a)({
           palette: {
             type: "light",
             primary: { light: "#e5ffff", main: "#1e6cae", dark: "#82ada9" },
@@ -176,9 +212,9 @@
             background: { default: "#eeeeee" },
           },
         }),
-        j = t(55),
-        D = t.n(j);
-      var L = () => {
+        D = t(55),
+        L = t.n(D);
+      var M = () => {
           const e = Object(c.a)({
               background: {
                 display: "flex",
@@ -187,12 +223,12 @@
                 alignItems: "center",
                 width: "100%",
                 height: "95vh",
-                backgroundImage: "url(".concat(T.a, ")"),
+                backgroundImage: "url(".concat(S.a, ")"),
                 backgroundPosition: "center top",
                 backgroundRepeat: "no-repeat",
                 backgroundAttachment: "scroll",
                 backgroundSize: "cover",
-                [I.breakpoints.down("xs")]: {
+                [j.breakpoints.down("xs")]: {
                   backgroundImage: "url(".concat(z.a, ")"),
                   backgroundPosition: "left center",
                   backgroundAttachment: "scroll",
@@ -203,25 +239,25 @@
                 top: "6rem",
                 margin: "0.5rem 1rem",
                 fontWeight: "bold",
-                [I.breakpoints.down("xs")]: { top: "4rem", fontSize: "3.4rem" },
+                [j.breakpoints.down("xs")]: { top: "4rem", fontSize: "3.4rem" },
               },
               topText: {
                 position: "relative",
                 top: "6rem",
                 margin: "0 1.4rem",
-                [I.breakpoints.down("xs")]: { top: "4rem", fontSize: "2.5rem" },
+                [j.breakpoints.down("xs")]: { top: "4rem", fontSize: "2.5rem" },
               },
               bottomText: {
                 position: "relative",
                 top: "6rem",
                 margin: "0 1.4rem",
-                [I.breakpoints.down("xs")]: { top: "4rem", fontSize: "1.2rem" },
+                [j.breakpoints.down("xs")]: { top: "4rem", fontSize: "1.2rem" },
               },
               button: {
                 position: "relative",
                 top: "9rem",
                 fontSize: "3.75rem",
-                [I.breakpoints.down("xs")]: { top: "6rem", fontSize: "3.5rem" },
+                [j.breakpoints.down("xs")]: { top: "6rem", fontSize: "3.5rem" },
               },
               backToTopButton: {
                 position: "fixed",
@@ -239,17 +275,17 @@
             s.a,
             { className: e.background, id: "Top" },
             i.a.createElement(
-              f.a,
+              k.a,
               { className: e.topText, variant: "h3", align: "center" },
               "Hi, my name is"
             ),
             i.a.createElement(
-              f.a,
+              k.a,
               { className: e.name, variant: "h2", align: "center" },
               "Kishore Shiraguppi"
             ),
             i.a.createElement(
-              f.a,
+              k.a,
               { className: e.bottomText, variant: "h6", align: "center" },
               "Software professional & an aspiring generalist."
             ),
@@ -267,10 +303,10 @@
               })
             ),
             i.a.createElement(
-              k.a,
+              y.a,
               { xsDown: !0 },
               i.a.createElement(
-                y.a,
+                N.a,
                 {
                   className: e.backToTopButton,
                   variant: "extended",
@@ -278,14 +314,14 @@
                   "aria-label": "Back to Top",
                   onClick: () => a("Top"),
                 },
-                i.a.createElement(D.a, null)
+                i.a.createElement(L.a, null)
               )
             ),
             i.a.createElement(
-              k.a,
+              y.a,
               { smUp: !0 },
               i.a.createElement(
-                y.a,
+                N.a,
                 {
                   className: ""
                     .concat(e.backToTopButton, " ")
@@ -294,13 +330,12 @@
                   "aria-label": "Back to Top",
                   onClick: () => a("Top"),
                 },
-                i.a.createElement(D.a, null)
+                i.a.createElement(L.a, null)
               )
             )
           );
         },
-        B = t(141),
-        M = t(142);
+        B = t(142);
       const R = {
           width: "100%",
           display: "flex",
@@ -316,7 +351,7 @@
           alignItems: "center",
         },
         P = {
-          ...I.typography.button,
+          ...j.typography.button,
           fontSize: "1.8rem",
           fontWeight: "bold",
           textShadow: "0.1rem 0.1rem 0.1rem rgba(178, 223, 219, 0.8)",
@@ -330,9 +365,9 @@
         };
       var O = t(66),
         H = t.n(O),
-        J = t(139),
-        G = t(140);
-      var K = () => {
+        J = t(140),
+        K = t(141);
+      var G = () => {
         const e = Object(c.a)({
             columnDiv: { ...R },
             mainDiv: { backgroundColor: "#e8e8e8", margin: "0 auto" },
@@ -359,7 +394,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-dot-net-plain",
                   fontSize: "inherit",
                 })
@@ -375,7 +410,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-javascript-plain",
                   fontSize: "inherit",
                 })
@@ -391,7 +426,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-csharp-plain",
                   fontSize: "inherit",
                 })
@@ -407,7 +442,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-git-plain",
                   fontSize: "inherit",
                 })
@@ -423,7 +458,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-electron-original",
                   fontSize: "inherit",
                 })
@@ -457,7 +492,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-wordpress-plain",
                   fontSize: "inherit",
                 })
@@ -473,7 +508,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-nextjs-plain",
                   fontSize: "inherit",
                 })
@@ -489,7 +524,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-mongodb-plain",
                   fontSize: "inherit",
                 })
@@ -505,7 +540,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(G.a, {
+                i.a.createElement(K.a, {
                   className: "devicon-oracle-plain",
                   fontSize: "inherit",
                 })
@@ -520,7 +555,7 @@
           s.a,
           { className: "".concat(e.columnDiv, " ").concat(e.mainDiv) },
           i.a.createElement(
-            f.a,
+            k.a,
             {
               className: "".concat(e.skillsText, " ").concat(e.headerText),
               align: "center",
@@ -545,7 +580,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-react-original",
                       fontSize: "inherit",
                     })
@@ -579,7 +614,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-html5-plain",
                       fontSize: "inherit",
                     })
@@ -595,7 +630,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-css3-plain",
                       fontSize: "inherit",
                     })
@@ -611,7 +646,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-nodejs-plain",
                       fontSize: "inherit",
                     })
@@ -627,7 +662,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-angularjs-plain",
                       fontSize: "inherit",
                     })
@@ -643,7 +678,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-jquery-plain",
                       fontSize: "inherit",
                     })
@@ -659,7 +694,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-java-plain",
                       fontSize: "inherit",
                     })
@@ -675,7 +710,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-vuejs-plain",
                       fontSize: "inherit",
                     })
@@ -691,7 +726,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(G.a, {
+                    i.a.createElement(K.a, {
                       className: "devicon-microsoftsqlserver-plain",
                       fontSize: "inherit",
                     })
@@ -701,11 +736,11 @@
                     classes: { primary: e.listItemText },
                   })
                 ),
-                i.a.createElement(k.a, { smUp: !0 }, a)
+                i.a.createElement(y.a, { smUp: !0 }, a)
               )
             ),
             i.a.createElement(
-              k.a,
+              y.a,
               { xsDown: !0 },
               i.a.createElement(
                 s.a,
@@ -715,7 +750,7 @@
             )
           ),
           i.a.createElement(
-            f.a,
+            k.a,
             { align: "center", className: e.bottomText },
             i.a.createElement(
               "span",
@@ -731,8 +766,8 @@
             columnDiv: { ...R },
             mainDiv: {
               width: "60%",
-              [I.breakpoints.down("sm")]: { width: "80%" },
-              [I.breakpoints.down("xs")]: { width: "90%" },
+              [j.breakpoints.down("sm")]: { width: "80%" },
+              [j.breakpoints.down("xs")]: { width: "90%" },
               margin: "0 auto",
             },
             headerText: { ...P },
@@ -759,9 +794,9 @@
               margin: "1rem",
               marginBottom: "6rem",
               width: "40%",
-              [I.breakpoints.down("md")]: { width: "50%" },
-              [I.breakpoints.down("sm")]: { width: "60%" },
-              [I.breakpoints.down("xs")]: { width: "70%" },
+              [j.breakpoints.down("md")]: { width: "50%" },
+              [j.breakpoints.down("sm")]: { width: "60%" },
+              [j.breakpoints.down("xs")]: { width: "70%" },
               boxShadow: "8px 8px 12px rgba(0, 0, 0, 0.25)",
             },
           })();
@@ -775,13 +810,13 @@
                 id: "About",
               },
               i.a.createElement(
-                f.a,
+                k.a,
                 { className: "".concat(e.aboutText, " ").concat(e.headerText) },
                 "About"
               ),
               i.a.createElement(B.a, { classes: { root: e.divider } }),
               i.a.createElement(
-                f.a,
+                k.a,
                 { className: e.bodyText },
                 "Hi there & welcome to my corner. This is ",
                 i.a.createElement("b", null, "Kishore Shiraguppi"),
@@ -805,7 +840,7 @@
                 "Also",
                 " ",
                 i.a.createElement(
-                  M.a,
+                  f.a,
                   {
                     onClick: () => {
                       document
@@ -826,7 +861,7 @@
                 className: e.picture,
               })
             ),
-            i.a.createElement(K, null)
+            i.a.createElement(G, null)
           );
         },
         V = t(153),
@@ -865,20 +900,20 @@
               contactDivider: { backgroundColor: "#eeeeee" },
               emailText: {
                 color: "#eeeeee",
-                fontSize: "1.1rem",
+                fontSize: "1.5rem",
                 fontWeight: 500,
               },
-              link: { fontSize: "1.1rem", fontWeight: 500 },
+              link: { fontSize: "1.5rem", fontWeight: 500 },
               icon: {
                 color: "#eeeeee",
-                margin: "0.5rem",
-                [I.breakpoints.down("sm")]: { margin: "0.1rem" },
+                margin: "0.1rem",
+                [j.breakpoints.down("sm")]: { margin: "0.1.5rem" },
               },
-              github: { fontSize: "2.2rem" },
-              linkedIn: { fontSize: "2.7rem" },
-              twitter: { fontSize: "2.6rem" },
-              youtube: { fontSize: "3rem" },
-              mailicon: { fontSize: ".5 rem" },
+              github: { fontSize: "1.5rem" },
+              linkedIn: { fontSize: "1.5rem" },
+              twitter: { fontSize: "1.5rem" },
+              youtube: { fontSize: "1.5rem" },
+              mailicon: { fontSize: "1.5rem" },
             })(),
             a = i.a.createElement(
               s.a,
@@ -984,7 +1019,7 @@
             s.a,
             { className: "".concat(e.columnDiv, " ").concat(e.mainDiv) },
             i.a.createElement(
-              f.a,
+              k.a,
               { className: "".concat(e.headerText, " ").concat(e.contactText) },
               "Contact Me"
             ),
@@ -1004,9 +1039,9 @@
           const a = Object(c.a)({
             card: {
               width: "50%",
-              [I.breakpoints.down("md")]: { width: "60%" },
-              [I.breakpoints.down("sm")]: { width: "75%" },
-              [I.breakpoints.down("xs")]: { width: "90%" },
+              [j.breakpoints.down("md")]: { width: "60%" },
+              [j.breakpoints.down("sm")]: { width: "75%" },
+              [j.breakpoints.down("xs")]: { width: "90%" },
             },
             title: { fontSize: "1.4rem", fontWeight: "bold" },
             div: {
@@ -1048,9 +1083,9 @@
                 i.a.createElement(
                   me.a,
                   null,
-                  i.a.createElement(f.a, { className: a.title }, e.title),
+                  i.a.createElement(k.a, { className: a.title }, e.title),
                   e.icons,
-                  i.a.createElement(f.a, { className: a.text }, e.description),
+                  i.a.createElement(k.a, { className: a.text }, e.description),
                   i.a.createElement(pe.a, {
                     className: a.image,
                     component: "img",
@@ -1069,15 +1104,15 @@
         be = t(77),
         fe = t.n(be),
         ke = t(78),
-        ve = t.n(ke),
-        we = t(79),
-        xe = t.n(we),
-        ye = t(80),
-        Ne = t.n(ye),
+        ye = t.n(ke),
+        ve = t(79),
+        we = t.n(ve),
+        xe = t(80),
+        Ne = t.n(xe),
         Te = t(81),
         Se = t.n(Te);
       t(105);
-      var ze = () => {
+      var Ie = () => {
         const e = Object(c.a)({
             columnDiv: { ...R },
             mainDiv: { width: "auto" },
@@ -1092,69 +1127,69 @@
               margin: "0.5rem 0",
             },
           })(),
-          a = i.a.createElement(G.a, {
+          a = i.a.createElement(K.a, {
             className: "devicon-tailwindcss-original",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          t = i.a.createElement(G.a, {
+          t = i.a.createElement(K.a, {
             className: "devicon-nextjs-plain colored",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          n = i.a.createElement(G.a, {
+          n = i.a.createElement(K.a, {
             className: "devicon-express-original colored",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          r = i.a.createElement(G.a, {
+          r = i.a.createElement(K.a, {
             className: "devicon-mongodb-plain",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          o = i.a.createElement(G.a, {
+          o = i.a.createElement(K.a, {
             className: "devicon-react-original",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          l = i.a.createElement(G.a, {
+          l = i.a.createElement(K.a, {
             className: "devicon-bootstrap-plain",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          m = i.a.createElement(G.a, {
+          m = i.a.createElement(K.a, {
             className: "devicon-javascript-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          p = i.a.createElement(G.a, {
+          p = i.a.createElement(K.a, {
             className: "devicon-html5-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          d = i.a.createElement(G.a, {
+          d = i.a.createElement(K.a, {
             className: "devicon-jquery-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          h = i.a.createElement(G.a, {
+          h = i.a.createElement(K.a, {
             className: "devicon-css3-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          u = i.a.createElement(G.a, {
+          u = i.a.createElement(K.a, {
             className: "devicon-nodejs-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          g = i.a.createElement(G.a, {
+          g = i.a.createElement(K.a, {
             className: "devicon-materialui-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
           E = i.a.createElement(s.a, { className: e.icons }, o, m, p, h),
           b = i.a.createElement(s.a, { className: e.icons }, o, u, m, g, p, h),
-          k = i.a.createElement(
+          f = i.a.createElement(
             s.a,
             { className: e.icons },
             t,
@@ -1166,8 +1201,8 @@
             p,
             h
           ),
-          v = i.a.createElement(s.a, { className: e.icons }, n, l, o, m, p, h),
-          w = i.a.createElement(
+          y = i.a.createElement(s.a, { className: e.icons }, n, l, o, m, p, h),
+          v = i.a.createElement(
             s.a,
             { className: e.icons },
             t,
@@ -1179,8 +1214,8 @@
             p,
             h
           ),
-          x = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
-        s.a, e.icons, G.a;
+          w = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
+        s.a, e.icons, K.a;
         return i.a.createElement(
           s.a,
           {
@@ -1188,7 +1223,7 @@
             id: "Projects",
           },
           i.a.createElement(
-            f.a,
+            k.a,
             { className: "".concat(e.projectText, " ").concat(e.headerText) },
             "Projects"
           ),
@@ -1209,10 +1244,10 @@
           }),
           i.a.createElement(de, {
             title: "SocialDrink",
-            icons: k,
+            icons: f,
             description:
               "SocialDrink is a social media management solution for businesses.",
-            image: ve.a,
+            image: ye.a,
             imageTitle: "SocialDrink screenshot",
             projectLink:
               "https://kishoreshiraguppi.github.io/portfolio-website/",
@@ -1221,10 +1256,10 @@
           }),
           i.a.createElement(de, {
             title: "QueueHero",
-            icons: w,
+            icons: v,
             description:
               "QueueHero is a wailist management solution for local businesses.",
-            image: xe.a,
+            image: we.a,
             imageTitle: "QueueHero screenshot",
             projectLink:
               "https://kishoreshiraguppi.github.io/portfolio-website/",
@@ -1233,7 +1268,7 @@
           }),
           i.a.createElement(de, {
             title: "Movieland",
-            icons: v,
+            icons: y,
             description: "A portal to discover the latest movies available",
             image: Ne.a,
             imageTitle: "Movieland screenshot",
@@ -1244,7 +1279,7 @@
           }),
           i.a.createElement(de, {
             title: "Venkateshwara Temple Website",
-            icons: x,
+            icons: w,
             description:
               "This is a project done to provide information about this temple place.",
             image: Se.a,
@@ -1265,7 +1300,7 @@
           }),
           i.a.createElement(de, {
             title: "Game : Catch-Me-If-You-Can",
-            icons: x,
+            icons: w,
             description: "A simple game made with JS.",
             image: fe.a,
             imageTitle: "Game screenshot",
@@ -1274,7 +1309,7 @@
           })
         );
       };
-      var Ce = () => {
+      var ze = () => {
         const e = Object(c.a)({
           div: {
             display: "flex",
@@ -1289,23 +1324,23 @@
           s.a,
           { className: e.div },
           i.a.createElement(
-            f.a,
+            k.a,
             { className: e.text },
             new Date().getFullYear(),
             " \xa9 Kishore Shiraguppi"
           )
         );
       };
-      var Ie = function () {
+      var Ce = function () {
         return i.a.createElement(
           l.a,
-          { theme: I },
+          { theme: j },
           i.a.createElement(x, null),
-          i.a.createElement(L, null),
+          i.a.createElement(M, null),
           i.a.createElement(U, null),
-          i.a.createElement(ze, null),
+          i.a.createElement(Ie, null),
           i.a.createElement(le, null),
-          i.a.createElement(Ce, null)
+          i.a.createElement(ze, null)
         );
       };
       Boolean(
@@ -1321,7 +1356,7 @@
           i.a.StrictMode,
           null,
           i.a.createElement(je.a, null),
-          i.a.createElement(Ie, null)
+          i.a.createElement(Ce, null)
         ),
         document.getElementById("root")
       ),
@@ -1372,4 +1407,4 @@
   },
   [[92, 1, 2]],
 ]);
-//# sourceMappingURL=main.7ee1d013.chunk.js.map
+//# sourceMappingURL=main.3433bb3e.chunk.js.map
