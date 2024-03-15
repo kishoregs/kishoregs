@@ -1,20 +1,33 @@
 {
   "files": {
-    "main.css": "/kishoregs/static/css/main.2a4b8a7e.css",
-    "main.js": "/kishoregs/static/js/main.b01f661e.js",
-    "static/media/background.jpg": "/kishoregs/static/media/background.7338b512893473e1d2e3.jpg",
-    "static/media/background2.jpg": "/kishoregs/static/media/background2.305aa3d0ececcb82528d.jpg",
-    "static/media/CMIC.JPG": "/kishoregs/static/media/CMIC.0667402c2bb5da20d994.JPG",
-    "static/media/PortfolioWebsiteScreenshot.JPG": "/kishoregs/static/media/PortfolioWebsiteScreenshot.ca65e2746ab88dbaf985.JPG",
-    "static/media/ToDoListScreenshot.jpg": "/kishoregs/static/media/ToDoListScreenshot.eb2f57106fd5b3074461.jpg",
-    "static/media/picture.jpg": "/kishoregs/static/media/picture.32832b4a5b1a95148523.jpg",
-    "static/media/cssart.jpg": "/kishoregs/static/media/cssart.d7b656ee0b4dd19da159.jpg",
+    "main.css": "/kishoregs/static/css/main.239fc7fd.chunk.css",
+    "main.js": "/kishoregs/static/js/main.c3ef8344.chunk.js",
+    "main.js.map": "/kishoregs/static/js/main.c3ef8344.chunk.js.map",
+    "runtime-main.js": "/kishoregs/static/js/runtime-main.f67028ca.js",
+    "runtime-main.js.map": "/kishoregs/static/js/runtime-main.f67028ca.js.map",
+    "static/js/2.62157620.chunk.js": "/kishoregs/static/js/2.62157620.chunk.js",
+    "static/js/2.62157620.chunk.js.map": "/kishoregs/static/js/2.62157620.chunk.js.map",
     "index.html": "/kishoregs/index.html",
-    "main.2a4b8a7e.css.map": "/kishoregs/static/css/main.2a4b8a7e.css.map",
-    "main.b01f661e.js.map": "/kishoregs/static/js/main.b01f661e.js.map"
+    "precache-manifest.c4698dd61ce1ad88e3e08c634e17721e.js": "/kishoregs/precache-manifest.c4698dd61ce1ad88e3e08c634e17721e.js",
+    "service-worker.js": "/kishoregs/service-worker.js",
+    "static/css/main.239fc7fd.chunk.css.map": "/kishoregs/static/css/main.239fc7fd.chunk.css.map",
+    "static/js/2.62157620.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.62157620.chunk.js.LICENSE.txt",
+    "static/media/CMIC.JPG": "/kishoregs/static/media/CMIC.94a502b4.JPG",
+    "static/media/PortfolioWebsiteScreenshot.JPG": "/kishoregs/static/media/PortfolioWebsiteScreenshot.20568a6d.JPG",
+    "static/media/ToDoListScreenshot.jpg": "/kishoregs/static/media/ToDoListScreenshot.497599d7.jpg",
+    "static/media/background.jpg": "/kishoregs/static/media/background.7147fc0c.jpg",
+    "static/media/background2.jpg": "/kishoregs/static/media/background2.25d5f08d.jpg",
+    "static/media/cssart.jpg": "/kishoregs/static/media/cssart.949a49b4.jpg",
+    "static/media/kishore-pro.png": "/kishoregs/static/media/kishore-pro.a014a6f0.png",
+    "static/media/kvk-fp.png": "/kishoregs/static/media/kvk-fp.892bd8f3.png",
+    "static/media/ml-fp.png": "/kishoregs/static/media/ml-fp.9ee50ca6.png",
+    "static/media/qh-fp.png": "/kishoregs/static/media/qh-fp.e710e4ef.png",
+    "static/media/sd-fp.png": "/kishoregs/static/media/sd-fp.ea4a0fb0.png"
   },
   "entrypoints": [
-    "static/css/main.2a4b8a7e.css",
-    "static/js/main.b01f661e.js"
+    "static/js/runtime-main.f67028ca.js",
+    "static/js/2.62157620.chunk.js",
+    "static/css/main.239fc7fd.chunk.css",
+    "static/js/main.c3ef8344.chunk.js"
   ]
 }
