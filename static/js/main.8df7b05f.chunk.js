@@ -2,30 +2,30 @@
   this["webpackJsonpportfolio-website"] || []).push([
   [0],
   {
-    105: function (e, a, t) {
+    106: function (e, a, t) {
       e.exports = t.p + "static/media/cssart.949a49b4.jpg";
     },
-    106: function (e, a, t) {
+    107: function (e, a, t) {
       "use strict";
       t.r(a);
       var n = t(0),
         i = t.n(n),
         r = t(9),
         o = t.n(r),
-        l = (t(97), t(148)),
-        c = (t(98), t(128)),
-        s = t(150),
-        m = t(129),
-        p = t(151),
-        d = t(132),
-        h = t(133),
-        u = t(134),
-        g = t(135),
-        E = t(136),
-        b = t(137),
-        f = t(138),
+        l = (t(98), t(149)),
+        c = (t(99), t(129)),
+        s = t(151),
+        m = t(130),
+        p = t(152),
+        d = t(133),
+        h = t(134),
+        u = t(135),
+        g = t(136),
+        E = t(137),
+        b = t(138),
+        f = t(139),
         k = t(40),
-        y = t(152),
+        y = t(153),
         w = t(63),
         v = t.n(w);
       var x = () => {
@@ -89,7 +89,7 @@
               i.a.createElement(
                 "a",
                 {
-                  href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
+                  href: "/kishoregs/Kishore.Shiraguppi.CV.2024.pdf",
                   className:
                     "MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-12",
                   target: "_blank",
@@ -132,7 +132,7 @@
                           "a",
                           {
                             key: a,
-                            href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
+                            href: "/kishoregs/Kishore.Shiraguppi.CV.2024.pdf",
                             className:
                               "MuiTypography-root MuiListItemText-primary makeStyles-listItemText-278 MuiTypography-body1 MuiTypography-displayBlock",
                             target: "_blank",
@@ -198,13 +198,13 @@
             )
           );
         },
-        N = t(139),
+        N = t(140),
         T = t(64),
         S = t.n(T),
-        I = t(65),
-        z = t.n(I),
-        C = t(82);
-      var j = Object(C.a)({
+        C = t(65),
+        I = t.n(C),
+        z = t(83);
+      var j = Object(z.a)({
           palette: {
             type: "light",
             primary: { light: "#e5ffff", main: "#1e6cae", dark: "#82ada9" },
@@ -239,7 +239,7 @@
                 backgroundAttachment: "scroll",
                 backgroundSize: "cover",
                 [j.breakpoints.down("xs")]: {
-                  backgroundImage: "url(".concat(z.a, ")"),
+                  backgroundImage: "url(".concat(I.a, ")"),
                   backgroundPosition: "left center",
                   backgroundAttachment: "scroll",
                 },
@@ -347,22 +347,22 @@
             )
           );
         },
-        B = t(142);
-      const R = {
+        B = t(143);
+      const W = {
           width: "100%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
         },
-        W = {
+        P = {
           width: "100%",
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",
         },
-        P = {
+        R = {
           ...j.typography.button,
           fontSize: "1.8rem",
           fontWeight: "bold",
@@ -377,16 +377,16 @@
         };
       var O = t(66),
         H = t.n(O),
-        J = t(140),
-        K = t(141);
-      var G = () => {
+        J = t(141),
+        V = t(142);
+      var K = () => {
         const e = Object(c.a)({
-            columnDiv: { ...R },
+            columnDiv: { ...W },
             mainDiv: { backgroundColor: "#e8e8e8", margin: "0 auto" },
-            rowDiv: { ...W },
+            rowDiv: { ...P },
             rowDivider: { width: "70%" },
             divider: { ...A },
-            headerText: { ...P },
+            headerText: { ...R },
             skillsText: { marginTop: "2rem" },
             listItemText: { color: "black", fontSize: "1.2rem" },
             bottomText: {
@@ -406,7 +406,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-dot-net-plain",
                   fontSize: "inherit",
                 })
@@ -422,7 +422,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-javascript-plain",
                   fontSize: "inherit",
                 })
@@ -438,7 +438,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-csharp-plain",
                   fontSize: "inherit",
                 })
@@ -454,7 +454,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-git-plain",
                   fontSize: "inherit",
                 })
@@ -470,7 +470,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-electron-original",
                   fontSize: "inherit",
                 })
@@ -504,7 +504,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-wordpress-plain",
                   fontSize: "inherit",
                 })
@@ -520,7 +520,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-nextjs-plain",
                   fontSize: "inherit",
                 })
@@ -536,7 +536,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-mongodb-plain",
                   fontSize: "inherit",
                 })
@@ -552,7 +552,7 @@
               i.a.createElement(
                 J.a,
                 { className: e.icon },
-                i.a.createElement(K.a, {
+                i.a.createElement(V.a, {
                   className: "devicon-oracle-plain",
                   fontSize: "inherit",
                 })
@@ -592,7 +592,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-react-original",
                       fontSize: "inherit",
                     })
@@ -626,7 +626,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-html5-plain",
                       fontSize: "inherit",
                     })
@@ -642,7 +642,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-css3-plain",
                       fontSize: "inherit",
                     })
@@ -658,7 +658,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-nodejs-plain",
                       fontSize: "inherit",
                     })
@@ -674,7 +674,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-angularjs-plain",
                       fontSize: "inherit",
                     })
@@ -690,7 +690,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-jquery-plain",
                       fontSize: "inherit",
                     })
@@ -706,7 +706,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-java-plain",
                       fontSize: "inherit",
                     })
@@ -722,7 +722,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-vuejs-plain",
                       fontSize: "inherit",
                     })
@@ -738,7 +738,7 @@
                   i.a.createElement(
                     J.a,
                     { className: e.icon },
-                    i.a.createElement(K.a, {
+                    i.a.createElement(V.a, {
                       className: "devicon-microsoftsqlserver-plain",
                       fontSize: "inherit",
                     })
@@ -773,16 +773,16 @@
           )
         );
       };
-      var U = () => {
+      var G = () => {
           const e = Object(c.a)({
-            columnDiv: { ...R },
+            columnDiv: { ...W },
             mainDiv: {
               width: "60%",
               [j.breakpoints.down("sm")]: { width: "80%" },
               [j.breakpoints.down("xs")]: { width: "90%" },
               margin: "0 auto",
             },
-            headerText: { ...P },
+            headerText: { ...R },
             aboutText: { marginTop: "6rem" },
             divider: { ...A },
             bodyText: {
@@ -839,7 +839,7 @@
                 i.a.createElement(
                   "a",
                   {
-                    href: "/kishoregs/Kishore.Shiraguppi.Resume.2024.pdf",
+                    href: "/kishoregs/Kishore.Shiraguppi.CV.2024.pdf",
                     className: e.link,
                     target: "_blank",
                     rel: "noopener noreferrer",
@@ -873,11 +873,11 @@
                 className: e.picture,
               })
             ),
-            i.a.createElement(G, null)
+            i.a.createElement(K, null)
           );
         },
-        V = t(153),
-        Y = t(143),
+        U = t(154),
+        Y = t(144),
         q = t(72),
         F = t.n(q),
         Q = t(71),
@@ -900,9 +900,9 @@
                 bottom: "0",
                 marginTop: "5rem",
               },
-              columnDiv: { ...R },
-              rowDiv: { ...W },
-              headerText: { ...P },
+              columnDiv: { ...W },
+              rowDiv: { ...P },
+              headerText: { ...R },
               contactText: {
                 color: "#eeeeee",
                 margin: "0.5rem",
@@ -931,7 +931,7 @@
               s.a,
               { className: e.rowDiv, id: "Contact" },
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "Phone", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -944,7 +944,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "WhatsApp", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -957,7 +957,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "Email", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -970,7 +970,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "LinkedIn", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -986,7 +986,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "GitHub", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -999,7 +999,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "Twitter", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -1013,7 +1013,7 @@
                 )
               ),
               i.a.createElement(
-                V.a,
+                U.a,
                 { title: "YouTube", arrow: !0, TransitionComponent: Y.a },
                 i.a.createElement(
                   g.a,
@@ -1043,10 +1043,10 @@
             a
           );
         },
-        ce = t(144),
-        se = t(145),
-        me = t(146),
-        pe = t(147);
+        ce = t(145),
+        se = t(146),
+        me = t(147),
+        pe = t(148);
       var de = (e) => {
           const a = Object(c.a)({
             card: {
@@ -1122,13 +1122,15 @@
         xe = t(80),
         Ne = t.n(xe),
         Te = t(81),
-        Se = t.n(Te);
-      t(105);
-      var Ie = () => {
+        Se = t.n(Te),
+        Ce = t(82),
+        Ie = t.n(Ce);
+      t(106);
+      var ze = () => {
         const e = Object(c.a)({
-            columnDiv: { ...R },
+            columnDiv: { ...W },
             mainDiv: { width: "auto" },
-            headerText: { ...P },
+            headerText: { ...R },
             projectText: { marginTop: "5rem" },
             divider: { ...A },
             projectsDivider: { paddingBottom: "0.15rem" },
@@ -1139,62 +1141,62 @@
               margin: "0.5rem 0",
             },
           })(),
-          a = i.a.createElement(K.a, {
+          a = i.a.createElement(V.a, {
             className: "devicon-tailwindcss-original",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          t = i.a.createElement(K.a, {
+          t = i.a.createElement(V.a, {
             className: "devicon-nextjs-plain colored",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          n = i.a.createElement(K.a, {
+          n = i.a.createElement(V.a, {
             className: "devicon-express-original colored",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          r = i.a.createElement(K.a, {
+          r = i.a.createElement(V.a, {
             className: "devicon-mongodb-plain",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          o = i.a.createElement(K.a, {
+          o = i.a.createElement(V.a, {
             className: "devicon-react-original",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          l = i.a.createElement(K.a, {
+          l = i.a.createElement(V.a, {
             className: "devicon-bootstrap-plain",
             fontSize: "inherit",
             style: { marginRight: "0.35rem" },
           }),
-          m = i.a.createElement(K.a, {
+          m = i.a.createElement(V.a, {
             className: "devicon-javascript-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          p = i.a.createElement(K.a, {
+          p = i.a.createElement(V.a, {
             className: "devicon-html5-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          d = i.a.createElement(K.a, {
+          d = i.a.createElement(V.a, {
             className: "devicon-jquery-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          h = i.a.createElement(K.a, {
+          h = i.a.createElement(V.a, {
             className: "devicon-css3-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          u = i.a.createElement(K.a, {
+          u = i.a.createElement(V.a, {
             className: "devicon-nodejs-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
           }),
-          g = i.a.createElement(K.a, {
+          g = i.a.createElement(V.a, {
             className: "devicon-materialui-plain",
             fontSize: "inherit",
             style: { margin: "0 0.35rem" },
@@ -1227,7 +1229,7 @@
             h
           ),
           v = i.a.createElement(s.a, { className: e.icons }, m, p, h, l, d);
-        s.a, e.icons, K.a;
+        s.a, e.icons, V.a;
         return i.a.createElement(
           s.a,
           {
@@ -1261,6 +1263,18 @@
               "SocialDrink is a social media management solution for businesses.",
             image: ye.a,
             imageTitle: "SocialDrink screenshot",
+            projectLink:
+              "https://kishoreshiraguppi.github.io/portfolio-website/",
+            githubLink:
+              "https://github.com/kishoreshiraguppi/portfolio-website",
+          }),
+          i.a.createElement(de, {
+            title: "SmartMoney",
+            icons: w,
+            description:
+              "Smart Money is a personal finance solution for individuals",
+            image: Ie.a,
+            imageTitle: "SmartMoney screenshot",
             projectLink:
               "https://kishoreshiraguppi.github.io/portfolio-website/",
             githubLink:
@@ -1321,7 +1335,7 @@
           })
         );
       };
-      var ze = () => {
+      var je = () => {
         const e = Object(c.a)({
           div: {
             display: "flex",
@@ -1343,16 +1357,16 @@
           )
         );
       };
-      var Ce = function () {
+      var De = function () {
         return i.a.createElement(
           l.a,
           { theme: j },
           i.a.createElement(x, null),
           i.a.createElement(M, null),
-          i.a.createElement(U, null),
-          i.a.createElement(Ie, null),
+          i.a.createElement(G, null),
+          i.a.createElement(ze, null),
           i.a.createElement(le, null),
-          i.a.createElement(ze, null)
+          i.a.createElement(je, null)
         );
       };
       Boolean(
@@ -1362,13 +1376,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      var je = t(149);
+      var Le = t(150);
       o.a.render(
         i.a.createElement(
           i.a.StrictMode,
           null,
-          i.a.createElement(je.a, null),
-          i.a.createElement(Ce, null)
+          i.a.createElement(Le.a, null),
+          i.a.createElement(De, null)
         ),
         document.getElementById("root")
       ),
@@ -1411,12 +1425,15 @@
     81: function (e, a, t) {
       e.exports = t.p + "static/media/kvk-fp.892bd8f3.png";
     },
-    92: function (e, a, t) {
-      e.exports = t(106);
+    82: function (e, a, t) {
+      e.exports = t.p + "static/media/smart-money-ss.fba7ed71.png";
     },
-    97: function (e, a, t) {},
+    93: function (e, a, t) {
+      e.exports = t(107);
+    },
     98: function (e, a, t) {},
+    99: function (e, a, t) {},
   },
-  [[92, 1, 2]],
+  [[93, 1, 2]],
 ]);
-//# sourceMappingURL=main.779cf767.chunk.js.map
+//# sourceMappingURL=main.8df7b05f.chunk.js.map
