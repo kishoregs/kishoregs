@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/kishoregs/static/css/main.239fc7fd.chunk.css",
-    "main.js": "/kishoregs/static/js/main.8df7b05f.chunk.js",
-    "main.js.map": "/kishoregs/static/js/main.8df7b05f.chunk.js.map",
+    "main.js": "/kishoregs/static/js/main.efa54d22.chunk.js",
+    "main.js.map": "/kishoregs/static/js/main.efa54d22.chunk.js.map",
     "runtime-main.js": "/kishoregs/static/js/runtime-main.f67028ca.js",
     "runtime-main.js.map": "/kishoregs/static/js/runtime-main.f67028ca.js.map",
-    "static/js/2.4755a39f.chunk.js": "/kishoregs/static/js/2.4755a39f.chunk.js",
-    "static/js/2.4755a39f.chunk.js.map": "/kishoregs/static/js/2.4755a39f.chunk.js.map",
+    "static/js/2.7cc132c4.chunk.js": "/kishoregs/static/js/2.7cc132c4.chunk.js",
+    "static/js/2.7cc132c4.chunk.js.map": "/kishoregs/static/js/2.7cc132c4.chunk.js.map",
     "index.html": "/kishoregs/index.html",
-    "precache-manifest.d262c6f51af1a0204e905e2007bc886e.js": "/kishoregs/precache-manifest.d262c6f51af1a0204e905e2007bc886e.js",
+    "precache-manifest.a611160717e71ddb6a1bf7de660aa2b8.js": "/kishoregs/precache-manifest.a611160717e71ddb6a1bf7de660aa2b8.js",
     "service-worker.js": "/kishoregs/service-worker.js",
     "static/css/main.239fc7fd.chunk.css.map": "/kishoregs/static/css/main.239fc7fd.chunk.css.map",
-    "static/js/2.4755a39f.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.4755a39f.chunk.js.LICENSE.txt",
+    "static/js/2.7cc132c4.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.7cc132c4.chunk.js.LICENSE.txt",
     "static/media/CMIC.JPG": "/kishoregs/static/media/CMIC.94a502b4.JPG",
     "static/media/PortfolioWebsiteScreenshot.JPG": "/kishoregs/static/media/PortfolioWebsiteScreenshot.20568a6d.JPG",
     "static/media/ToDoListScreenshot.jpg": "/kishoregs/static/media/ToDoListScreenshot.497599d7.jpg",
     "static/media/background.jpg": "/kishoregs/static/media/background.7147fc0c.jpg",
     "static/media/background2.jpg": "/kishoregs/static/media/background2.25d5f08d.jpg",
     "static/media/cssart.jpg": "/kishoregs/static/media/cssart.949a49b4.jpg",
+    "static/media/hayagreeva-ss.png": "/kishoregs/static/media/hayagreeva-ss.a2f8ed70.png",
     "static/media/kishore-pro.png": "/kishoregs/static/media/kishore-pro.a014a6f0.png",
     "static/media/kvk-fp.png": "/kishoregs/static/media/kvk-fp.892bd8f3.png",
     "static/media/ml-fp.png": "/kishoregs/static/media/ml-fp.9ee50ca6.png",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f67028ca.js",
-    "static/js/2.4755a39f.chunk.js",
+    "static/js/2.7cc132c4.chunk.js",
     "static/css/main.239fc7fd.chunk.css",
-    "static/js/main.8df7b05f.chunk.js"
+    "static/js/main.efa54d22.chunk.js"
   ]
 }

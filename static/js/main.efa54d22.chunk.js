@@ -2,30 +2,31 @@
   this["webpackJsonpportfolio-website"] || []).push([
   [0],
   {
-    106: function (e, a, t) {
+    100: function (e, a, t) {},
+    107: function (e, a, t) {
       e.exports = t.p + "static/media/cssart.949a49b4.jpg";
     },
-    107: function (e, a, t) {
+    108: function (e, a, t) {
       "use strict";
       t.r(a);
       var n = t(0),
         i = t.n(n),
         r = t(9),
         o = t.n(r),
-        l = (t(98), t(149)),
-        c = (t(99), t(129)),
-        s = t(151),
-        m = t(130),
-        p = t(152),
-        d = t(133),
-        h = t(134),
-        u = t(135),
-        g = t(136),
-        E = t(137),
-        b = t(138),
-        f = t(139),
+        l = (t(99), t(150)),
+        c = (t(100), t(130)),
+        s = t(152),
+        m = t(131),
+        p = t(153),
+        d = t(134),
+        h = t(135),
+        u = t(136),
+        g = t(137),
+        E = t(138),
+        b = t(139),
+        f = t(140),
         k = t(40),
-        y = t(153),
+        y = t(154),
         w = t(63),
         v = t.n(w);
       var x = () => {
@@ -198,12 +199,12 @@
             )
           );
         },
-        N = t(140),
+        N = t(141),
         T = t(64),
         S = t.n(T),
         C = t(65),
         I = t.n(C),
-        z = t(83);
+        z = t(84);
       var j = Object(z.a)({
           palette: {
             type: "light",
@@ -347,7 +348,7 @@
             )
           );
         },
-        B = t(143);
+        B = t(144);
       const W = {
           width: "100%",
           display: "flex",
@@ -377,8 +378,8 @@
         };
       var O = t(66),
         H = t.n(O),
-        J = t(141),
-        V = t(142);
+        J = t(142),
+        V = t(143);
       var K = () => {
         const e = Object(c.a)({
             columnDiv: { ...W },
@@ -769,7 +770,7 @@
               { style: { fontWeight: "bold" } },
               "Currently learning: "
             ),
-            "Next.js"
+            "Nestjs"
           )
         );
       };
@@ -876,8 +877,8 @@
             i.a.createElement(K, null)
           );
         },
-        U = t(154),
-        Y = t(144),
+        U = t(155),
+        Y = t(145),
         q = t(72),
         F = t.n(q),
         Q = t(71),
@@ -1043,10 +1044,10 @@
             a
           );
         },
-        ce = t(145),
-        se = t(146),
-        me = t(147),
-        pe = t(148);
+        ce = t(146),
+        se = t(147),
+        me = t(148),
+        pe = t(149);
       var de = (e) => {
           const a = Object(c.a)({
             card: {
@@ -1124,9 +1125,11 @@
         Te = t(81),
         Se = t.n(Te),
         Ce = t(82),
-        Ie = t.n(Ce);
-      t(106);
-      var ze = () => {
+        Ie = t.n(Ce),
+        ze = t(83),
+        je = t.n(ze);
+      t(107);
+      var De = () => {
         const e = Object(c.a)({
             columnDiv: { ...W },
             mainDiv: { width: "auto" },
@@ -1314,6 +1317,18 @@
             githubLink: "https://github.com/kishoregs/catch-me-if-you-can",
           }),
           i.a.createElement(de, {
+            title: "Hayagreeva",
+            icons: w,
+            description:
+              "Hayagreeva is a coaching institute for higher studies.",
+            image: je.a,
+            imageTitle: "Hayagreeva screenshot",
+            projectLink:
+              "https://kishoreshiraguppi.github.io/portfolio-website/",
+            githubLink:
+              "https://github.com/kishoreshiraguppi/portfolio-website",
+          }),
+          i.a.createElement(de, {
             title: "To-Do List",
             icons: E,
             description:
@@ -1335,7 +1350,7 @@
           })
         );
       };
-      var je = () => {
+      var Le = () => {
         const e = Object(c.a)({
           div: {
             display: "flex",
@@ -1357,16 +1372,16 @@
           )
         );
       };
-      var De = function () {
+      var Me = function () {
         return i.a.createElement(
           l.a,
           { theme: j },
           i.a.createElement(x, null),
           i.a.createElement(M, null),
           i.a.createElement(G, null),
-          i.a.createElement(ze, null),
+          i.a.createElement(De, null),
           i.a.createElement(le, null),
-          i.a.createElement(je, null)
+          i.a.createElement(Le, null)
         );
       };
       Boolean(
@@ -1376,13 +1391,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      var Le = t(150);
+      var Be = t(151);
       o.a.render(
         i.a.createElement(
           i.a.StrictMode,
           null,
-          i.a.createElement(Le.a, null),
-          i.a.createElement(De, null)
+          i.a.createElement(Be.a, null),
+          i.a.createElement(Me, null)
         ),
         document.getElementById("root")
       ),
@@ -1428,12 +1443,14 @@
     82: function (e, a, t) {
       e.exports = t.p + "static/media/smart-money-ss.fba7ed71.png";
     },
-    93: function (e, a, t) {
-      e.exports = t(107);
+    83: function (e, a, t) {
+      e.exports = t.p + "static/media/hayagreeva-ss.a2f8ed70.png";
     },
-    98: function (e, a, t) {},
+    94: function (e, a, t) {
+      e.exports = t(108);
+    },
     99: function (e, a, t) {},
   },
-  [[93, 1, 2]],
+  [[94, 1, 2]],
 ]);
-//# sourceMappingURL=main.8df7b05f.chunk.js.map
+//# sourceMappingURL=main.efa54d22.chunk.js.map
