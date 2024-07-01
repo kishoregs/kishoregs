@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kishoregs/static/css/main.239fc7fd.chunk.css",
-    "main.js": "/kishoregs/static/js/main.efa54d22.chunk.js",
-    "main.js.map": "/kishoregs/static/js/main.efa54d22.chunk.js.map",
+    "main.js": "/kishoregs/static/js/main.c750b5c8.chunk.js",
+    "main.js.map": "/kishoregs/static/js/main.c750b5c8.chunk.js.map",
     "runtime-main.js": "/kishoregs/static/js/runtime-main.f67028ca.js",
     "runtime-main.js.map": "/kishoregs/static/js/runtime-main.f67028ca.js.map",
-    "static/js/2.7cc132c4.chunk.js": "/kishoregs/static/js/2.7cc132c4.chunk.js",
-    "static/js/2.7cc132c4.chunk.js.map": "/kishoregs/static/js/2.7cc132c4.chunk.js.map",
+    "static/js/2.464bfcae.chunk.js": "/kishoregs/static/js/2.464bfcae.chunk.js",
+    "static/js/2.464bfcae.chunk.js.map": "/kishoregs/static/js/2.464bfcae.chunk.js.map",
     "index.html": "/kishoregs/index.html",
-    "precache-manifest.a611160717e71ddb6a1bf7de660aa2b8.js": "/kishoregs/precache-manifest.a611160717e71ddb6a1bf7de660aa2b8.js",
+    "precache-manifest.3b16368a69c52a4a9b86a4a1b38475f8.js": "/kishoregs/precache-manifest.3b16368a69c52a4a9b86a4a1b38475f8.js",
     "service-worker.js": "/kishoregs/service-worker.js",
     "static/css/main.239fc7fd.chunk.css.map": "/kishoregs/static/css/main.239fc7fd.chunk.css.map",
-    "static/js/2.7cc132c4.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.7cc132c4.chunk.js.LICENSE.txt",
+    "static/js/2.464bfcae.chunk.js.LICENSE.txt": "/kishoregs/static/js/2.464bfcae.chunk.js.LICENSE.txt",
     "static/media/CMIC.JPG": "/kishoregs/static/media/CMIC.94a502b4.JPG",
     "static/media/PortfolioWebsiteScreenshot.JPG": "/kishoregs/static/media/PortfolioWebsiteScreenshot.20568a6d.JPG",
     "static/media/ToDoListScreenshot.jpg": "/kishoregs/static/media/ToDoListScreenshot.497599d7.jpg",
@@ -24,12 +24,13 @@
     "static/media/ml-fp.png": "/kishoregs/static/media/ml-fp.9ee50ca6.png",
     "static/media/qh-fp.png": "/kishoregs/static/media/qh-fp.e710e4ef.png",
     "static/media/sd-fp.png": "/kishoregs/static/media/sd-fp.ea4a0fb0.png",
-    "static/media/smart-money-ss.png": "/kishoregs/static/media/smart-money-ss.fba7ed71.png"
+    "static/media/smart-money-ss.png": "/kishoregs/static/media/smart-money-ss.fba7ed71.png",
+    "static/media/strades.png": "/kishoregs/static/media/strades.7be8290e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f67028ca.js",
-    "static/js/2.7cc132c4.chunk.js",
+    "static/js/2.464bfcae.chunk.js",
     "static/css/main.239fc7fd.chunk.css",
-    "static/js/main.efa54d22.chunk.js"
+    "static/js/main.c750b5c8.chunk.js"
   ]
 }
