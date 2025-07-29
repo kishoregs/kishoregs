@@ -10,12 +10,13 @@
   - Leading enhancements in contact center applications supporting consumer, small business, and wealth management technology.
 - 🏢 **20+ Years in IT**
   - Specialized in enterprise architecture and development across finance, insurance, and logistics.
-  - Previous experience at Royal Bank of Canada, UPS, New York Life Insurance, and Honeywell.
+  - Previous experience at Royal Bank of Canada, UPS, New York Life Insurance, Honeywell & NOUS.
 - 🎓 **Education**
   - B.E. in Electronics & Communications
   - M.S. in Software Systems — BITS Pilani, India
 - 🏆 **Certifications**
   - Microsoft Certified Professional (C# & SQL Server)
+  - Sun Certified Java Professional
   - Brainbench Certified in ASP.NET
 
 ---
@@ -23,7 +24,7 @@
 ### 🛠️ Technical Expertise
 
 **Enterprise & Org Tech Stack:**  
-Angular • Java Spring Boot • .NET Core • SQL Server • MQ • Database Design
+Full stack : Angular • Java Spring Boot • .NET Core • SQL Server • MQ • Database Design
 
 **Personal/Hobby Projects:**
 
@@ -56,7 +57,7 @@ DevOps • CI/CD • Automated Testing • Middleware (Websphere, JBOSS, IIS, Pa
 
 ### ⚽ Interests & Hobbies
 
-- Soccer and Cricket enthusiast
+- Soccer, Tennis, Cricket, Movies enthusiast. I am ready to play any game with you!
 - Always up for tech talks and learning new things!
 
 ---
