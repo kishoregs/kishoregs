@@ -6,9 +6,9 @@
 
 ### 👨‍💻 About Me
 
-- 👔 **Vice President, Feature Lead @ Bank of America**
+- 👔 **Vice President, Tech Lead @ Bank of America**
   - Leading enhancements in contact center applications supporting consumer, small business, and wealth management technology.
-- 🏢 **20+ Years in IT**
+- 🏢 **22+ Years in IT industry**
   - Specialized in enterprise architecture and development across finance, insurance, and logistics.
   - Previous experience at Royal Bank of Canada, UPS, New York Life Insurance, Honeywell & NOUS.
 - 🎓 **Education**
@@ -33,7 +33,7 @@ Full stack : Angular • Java Spring Boot • .NET Core • SQL Server • MQ �
 - **Deployment:** [Vercel](https://x.com/vercel)
 - **UI Kit:** shadcnui, tailwindcss
 - **Email:** [Resend](https://x.com/resend)
-- **AI Assistants:** GitHub Copilot, Windsurf, Gemini, Claude
+- **AI Assistants:** Claude, Cursor
 
 **Languages & Frameworks:**  
 HTML • CSS • JavaScript • jQuery • Angular • React • NextJS • NodeJS • .NET Core • C# • Java • Spring Boot • SQL
